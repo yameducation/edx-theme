@@ -29,7 +29,7 @@ should_show_order_history = should_redirect_to_order_history_microfrontend() and
 %>
 
 <div class="nav-item hidden-mobile">
-    <a href="https://my.yam-edu.com/dashboard" class="menu-title">
+    <a href="https://app.dev.yam-edu.com/" class="menu-title">
         <img data-hj-suppress class="user-image-frame" src="${profile_image_url}" alt="">
         <span class="sr-only">${_("Dashboard for:")}</span>
         <span data-hj-suppress class="username">${displayname}</span>
@@ -41,15 +41,15 @@ should_show_order_history = should_redirect_to_order_history_microfrontend() and
     </div>
     <div class="dropdown-user-menu hidden" aria-label=${_("More Options")} role="menu" id="user-menu" tabindex="-1">
         % if not enterprise_customer_portal:
-            <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://my.yam-edu.com/dashboard" role="menuitem">${_("Dashboard")}</a></div>
+            <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://app.dev.yam-edu.com/" role="menuitem">${_("Dashboard")}</a></div>
         % else:
             <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="${settings.ENTERPRISE_LEARNER_PORTAL_BASE_URL}/${enterprise_customer_portal.get('slug')}" role="menuitem">${_("Dashboard")}</a></div>
         % endif
 
-        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://my.yam-edu.com/profile" role="menuitem">${_("Profile")}</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://app.dev.yam-edu.com/profile" role="menuitem">${_("Profile")}</a></div>
         % if should_show_order_history:
             <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="${settings.ORDER_HISTORY_MICROFRONTEND_URL}" role="menuitem">${_("Order History")}</a></div>
         % endif
-        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://my.yam-edu.com/logout" role="menuitem">${_("Sign Out")}</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://app.dev.yam-edu.com/logout" role="menuitem">${_("Sign Out")}</a></div>
     </div>
 </div>
