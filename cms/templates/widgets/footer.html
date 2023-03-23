@@ -14,19 +14,19 @@ from openedx.core.djangolib.markup import HTML, Text
 
     <div class="footer-content-primary">
       <div class="colophon">
-        <p>&copy; ${datetime.now(pytz.timezone(settings.TIME_ZONE)).year} <a href="${marketing_link('ROOT')}" rel="external">${settings.PLATFORM_NAME}</a>.</p>
+        <p>&copy; ${datetime.now(pytz.timezone(settings.TIME_ZONE)).year} <a href="https://yam-edu.com" rel="external">${settings.PLATFORM_NAME}</a>.</p>
       </div>
 
         <nav class="nav-peripheral" aria-label="${_("Policies")}">
           <ol>
             % if is_marketing_link_set('TOS'):
               <li class="nav-item nav-peripheral-tos">
-                <a href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
+                <a href="https://yam-edu.com/terms">${_("Terms of Service")}</a>
               </li>
             % endif
             % if is_marketing_link_set('PRIVACY'):
               <li class="nav-item nav-peripheral-pp">
-                <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+                <a href="https://yam-edu.com/privacy">${_("Privacy Policy")}</a>
               </li>
             % endif
             <li class="nav-item">
