@@ -16,9 +16,7 @@
 <div class="wrapper-content-header wrapper">
   <section class="content content-header">
     <header>
-      <h1><span class="wrapper-text-welcome">${_("Welcome to {studio_name}").format(
-          studio_name=settings.STUDIO_NAME
-      )}</span></h1>
+      <h1><span class="wrapper-text-welcome">${_("Welcome to Yam Studio")}</span></h1>
       <p class="tagline">${_("{studio_name} helps manage your online courses, so you can focus on teaching them").format(
         studio_name=settings.STUDIO_SHORT_NAME
       )}</p>
@@ -26,7 +24,7 @@
   </section>
 </div>
 
-<div class="wrapper-content-features wrapper">
+<!-- <div class="wrapper-content-features wrapper">
   <section class="content content-features">
     <header>
       <h2 class="sr">${_("{studio_name}'s Many Features").format(studio_name=settings.STUDIO_SHORT_NAME)}</h2>
@@ -151,7 +149,7 @@
       </li>
     </ol>
   </section>
-</div>
+</div> -->
 
 % if static.get_value('ALLOW_PUBLIC_ACCOUNT_CREATION', settings.FEATURES.get('ALLOW_PUBLIC_ACCOUNT_CREATION')):
 <!--div class="wrapper-content-cta wrapper">
@@ -172,7 +170,7 @@
 </div-->
 % endif
 
-<div class="content-modal" id="hiw-feature1">
+<!-- <div class="content-modal" id="hiw-feature1">
   <h3 class="title">${_("Outlining Your Course")}</h3>
   <figure>
     <img src="${static.url("images/hiw-feature1.png")}" alt="" />
@@ -209,5 +207,5 @@
     <span class="icon fa fa-times-circle" aria-hidden="true"></span>
     <span class="label">${_("close modal")}</span>
   </a>
-</div>
+</div> -->
 </%block>
