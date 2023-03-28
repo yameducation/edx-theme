@@ -27,7 +27,7 @@
       </li>
       % endif
       <li class="nav-item nav-account-signout">
-        <a class="action action-signout" href="https://my.yam-edu.com/logout">${_("Sign Out")}</a>
+        <a class="action action-signout" href="${settings.FRONTEND_LOGOUT_URL}?next=auth0logout">${_("Sign Out")}</a>
       </li>
     </ul>
   </div>

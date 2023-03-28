@@ -65,7 +65,10 @@ ul, ol {list-style: none; padding: 0; margin: 0;}
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #070c47;
+    background-image: url("https://static.my.yam-edu.com/yam-login-background-final.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
