@@ -1,0 +1,277 @@
+/* a.button.new-button.new-course-button {
+    background-color: #34a9dd !important;
+    border-color: #34a9dd !important;
+    color:#fff !important;
+}
+a.button.new-button.new-library-button {
+    background-color: #34a9dd !important;
+    border-color: #34a9dd !important;
+    color:#fff !important;
+}
+a.action-primary.action-create.new-button.action-create-library.new-library-button {
+    background-color: #34a9dd !important;
+    color: #fff !important;
+    border-color:#34a9dd !important;
+} */
+
+
+
+
+/* header.primary,
+.wrapper-header,
+.wrapper-header .wrapper-l, .wrapper-header .wrapper-r{
+    background:#34a9dd;
+}
+.wrapper-header nav .nav-item a {
+    color: #fff;
+} */
+.not-signedin .wrapper-header .nav-pitch .action-signup,
+.wrapper-mast .mast.has-actions .nav-actions .button, .wrapper-sock .sock .support .list-actions .action-primary, .wrapper-sock .sock .feedback .list-actions .action-primary, .notice-incontext.has-actions .list-actions .action-primary, .notice-instruction.has-actions .list-actions .action-primary, .view-dashboard .status-creationrights .list-actions .action-primary, .view-dashboard .status-creationrights .form-actions .action-primary, .view-export .export-controls .action-export, .view-export .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary, .view-import .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary, .view-outline .course-status .status-highlights-enabled-value.button, .view-settings .group-settings.basic .note-promotion-courseURL .list-actions .action-primary, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-publish, .view-export-git .export-git-controls .action-export-git, .view-group-configurations .content-primary .wrapper-collection .collection-edit .actions .action-primary, .view-video-uploads .course-video-settings-container .button, .view-certificates .wrapper-collection .collection-edit .actions .action-primary, .xmodule_VideoBlock .wrapper-comp-settings.basic_metadata_edit .transcripts-status .action{
+        color: #fff;
+    background: #34a9dd;
+    border-color: #34a9dd;
+}
+.not-signedin .wrapper-header .nav-pitch .action-signin {
+    background: #34a9dd;
+    color: #fff;
+    text-shadow: none;
+}
+
+.view-howitworks.not-signedin .wrapper-content-header {
+    background: #34a9dd;
+}
+/*
+.view-howitworks.not-signedin .content-header .tagline,
+.wrapper-header .info-course .course-link,
+.wrapper-header .info-course .course-org, .wrapper-header .info-course .course-number,
+body.course.view-outline .nav-course-courseware .title{
+    color: #fff;
+}
+*/
+.view-howitworks.not-signedin .content-cta .list-actions .action.action-primary {
+    background: #34a9dd;
+    border-color: #34a9dd;
+}
+a,
+.wrapper-footer footer.primary a,
+.nav-dd .nav-sub .nav-item a{
+    color: #34a9dd;
+}
+.wrapper-header .nav-dd .title {
+    background: transparent;
+    border: none;
+    /* color: #fff; */
+}
+.wrapper-header .nav-dd .title .fa-caret-down {
+     opacity:1;
+}
+.jump-nav .nav-item .title:hover, .jump-nav .nav-item .title:active {
+    color: #34a9dd;
+}
+.incontext-editor.is-editable .incontext-editor-open-action:hover, .incontext-editor.is-editable .access-button:hover, .view-group-configurations .content-primary .wrapper-collection .collection-details .actions .action .edit:hover, .view-certificates .wrapper-collection .collection-details .actions .action .edit:hover, .view-certificates .wrapper-collection .collection-details .actions .action .edit-signatory:hover, .incontext-editor.is-editable .incontext-editor-open-action:focus, .incontext-editor.is-editable .access-button:focus, .view-group-configurations .content-primary .wrapper-collection .collection-details .actions .action .edit:focus, .view-certificates .wrapper-collection .collection-details .actions .action .edit:focus, .view-certificates .wrapper-collection .collection-details .actions .action .edit-signatory:focus {
+    background: #34a9dd;
+}
+.view-dashboard #course-index-tabs li.active,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav-button.focused, .xmodule_display.xmodule_SequenceBlock .sequence-nav-button:hover, .xmodule_display.xmodule_SequenceBlock .sequence-nav-button:active, .xmodule_display.xmodule_SequenceBlock .sequence-nav-button.active, .xmodule_display.xmodule_SequenceBlock .sequence-nav button.focused, .xmodule_display.xmodule_SequenceBlock .sequence-nav button:hover, .xmodule_display.xmodule_SequenceBlock .sequence-nav button:active, .xmodule_display.xmodule_SequenceBlock .sequence-nav button.active {
+    border-bottom-color: #34a9dd;
+}
+.wrapper-header .nav-dd .current.title, .wrapper-header .nav-dd .active.title, .wrapper-header .nav-dd .is-selected.title {
+    box-shadow: none;
+}
+.wrapper-comp-settings .file-uploader .upload-setting:hover, .wrapper-comp-settings .list-input.settings-list .metadata-list-enum .create-setting:hover, .wrapper-comp-settings .list-input.settings-list .metadata-dict .create-setting:hover, .outline-content .add-item .button-new:hover, .bit .external-help-button:hover, .view-outline .new-subsection-item:hover, .view-outline .new-unit-item:hover, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .proctoring-configuration-button:hover, .view-outline .outline-complex .add-item .button-new:hover, .view-settings .group-settings #field-course-image .wrapper-input .action-upload-image:hover, .view-settings .group-settings #field-banner-image .wrapper-input .action-upload-image:hover, .view-settings .group-settings #field-video-thumbnail-image .wrapper-input .action-upload-image:hover, .view-settings .group-settings.instructor-types .field-group .wrapper-input .action-upload-instructor-image:hover, .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field-group .field .action-upload:hover, .view-textbooks .content-primary .textbook .edit-textbook .textbook-fields .field-group .field .action-upload:hover, .view-textbooks .content-primary .textbook .edit-textbook .action-add-chapter:hover, .view-group-configurations .content-primary .wrapper-collection .action-add-item:hover, .view-group-configurations .content-primary .action-add:hover, .view-certificates .wrapper-collection .collection-edit .action-add-signatory:hover, .view-certificates .wrapper-collection .action-add-item:hover, .view-certificates .action-add:hover, .view-certificates .certificates .signatory-edit .field .signature-upload-wrapper .action-upload-signature:hover, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .create-setting:hover, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .upload-setting:hover, .wrapper-comp-settings .file-uploader .upload-setting:focus, .wrapper-comp-settings .list-input.settings-list .metadata-list-enum .create-setting:focus, .wrapper-comp-settings .list-input.settings-list .metadata-dict .create-setting:focus, .outline-content .add-item .button-new:focus, .bit .external-help-button:focus, .view-outline .new-subsection-item:focus, .view-outline .new-unit-item:focus, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .proctoring-configuration-button:focus, .view-outline .outline-complex .add-item .button-new:focus, .view-settings .group-settings #field-course-image .wrapper-input .action-upload-image:focus, .view-settings .group-settings #field-banner-image .wrapper-input .action-upload-image:focus, .view-settings .group-settings #field-video-thumbnail-image .wrapper-input .action-upload-image:focus, .view-settings .group-settings.instructor-types .field-group .wrapper-input .action-upload-instructor-image:focus, .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field-group .field .action-upload:focus, .view-textbooks .content-primary .textbook .edit-textbook .textbook-fields .field-group .field .action-upload:focus, .view-textbooks .content-primary .textbook .edit-textbook .action-add-chapter:focus, .view-group-configurations .content-primary .wrapper-collection .action-add-item:focus, .view-group-configurations .content-primary .action-add:focus, .view-certificates .wrapper-collection .collection-edit .action-add-signatory:focus, .view-certificates .wrapper-collection .action-add-item:focus, .view-certificates .action-add:focus, .view-certificates .certificates .signatory-edit .field .signature-upload-wrapper .action-upload-signature:focus, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .create-setting:focus, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .upload-setting:focus,
+[class*="view-"] .xblock-visibility_view .is-not-configured .button, .view-outline .content-primary .no-content .button, .view-static-pages .content-primary .add-pages .button, .view-container .content-primary .no-container-content .button, .view-textbooks .content-primary .no-textbook-content .button, .view-group-configurations .content-primary .no-content .button, .view-certificates .content-primary .no-content .button, [class*="view-"] .xblock-visibility_view .is-not-configured .action, .view-outline .content-primary .no-content .action, .view-static-pages .content-primary .add-pages .action, .view-container .content-primary .no-container-content .action, .view-textbooks .content-primary .no-textbook-content .action, .view-group-configurations .content-primary .no-content .action, .view-certificates .content-primary .no-content .action, .add-xblock-component .new-component .new-component-type .add-xblock-component-button, .wrapper-mast .mast.has-actions .nav-actions .button.new-button, .wrapper-mast .mast.has-actions .nav-actions .button.button-new, .notice-create.has-actions .list-actions .action-primary, .view-uploads .no-asset-content .new-button, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-course, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-library, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-course, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-library, .view-import .action-choose-file, .view-import .wrapper-file-name .submit-button, .view-settings .group-settings.assignment-types .actions .new-button, .view-settings .group-settings.course-learning-info .actions .new-button, .view-settings .group-settings.instructor-types .actions .new-button, .view-team .content .notice-create.has-actions .list-actions .action-primary, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .button, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .action {
+    background: #34a9dd;
+    border-color: #34a9dd;
+}
+[class*="view-"] .xblock-visibility_view .is-not-configured .button:hover, .view-outline .content-primary .no-content .button:hover, .view-static-pages .content-primary .add-pages .button:hover, .view-container .content-primary .no-container-content .button:hover, .view-textbooks .content-primary .no-textbook-content .button:hover, .view-group-configurations .content-primary .no-content .button:hover, .view-certificates .content-primary .no-content .button:hover, [class*="view-"] .xblock-visibility_view .is-not-configured .action:hover, .view-outline .content-primary .no-content .action:hover, .view-static-pages .content-primary .add-pages .action:hover, .view-container .content-primary .no-container-content .action:hover, .view-textbooks .content-primary .no-textbook-content .action:hover, .view-group-configurations .content-primary .no-content .action:hover, .view-certificates .content-primary .no-content .action:hover, .add-xblock-component .new-component .new-component-type .add-xblock-component-button:hover, .wrapper-mast .mast.has-actions .nav-actions .button.new-button:hover, .wrapper-mast .mast.has-actions .nav-actions .button.button-new:hover, .notice-create.has-actions .list-actions .action-primary:hover, .view-uploads .no-asset-content .new-button:hover, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-course:hover, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-library:hover, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-course:hover, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-library:hover, .view-import .action-choose-file:hover, .view-import .wrapper-file-name .submit-button:hover, .view-settings .group-settings.assignment-types .actions .new-button:hover, .view-settings .group-settings.course-learning-info .actions .new-button:hover, .view-settings .group-settings.instructor-types .actions .new-button:hover, .view-team .content .notice-create.has-actions .list-actions .action-primary:hover, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .button:hover, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .action:hover, [class*="view-"] .xblock-visibility_view .is-not-configured .button:active, .view-outline .content-primary .no-content .button:active, .view-static-pages .content-primary .add-pages .button:active, .view-container .content-primary .no-container-content .button:active, .view-textbooks .content-primary .no-textbook-content .button:active, .view-group-configurations .content-primary .no-content .button:active, .view-certificates .content-primary .no-content .button:active, [class*="view-"] .xblock-visibility_view .is-not-configured .action:active, .view-outline .content-primary .no-content .action:active, .view-static-pages .content-primary .add-pages .action:active, .view-container .content-primary .no-container-content .action:active, .view-textbooks .content-primary .no-textbook-content .action:active, .view-group-configurations .content-primary .no-content .action:active, .view-certificates .content-primary .no-content .action:active, .add-xblock-component .new-component .new-component-type .add-xblock-component-button:active, .wrapper-mast .mast.has-actions .nav-actions .button.new-button:active, .wrapper-mast .mast.has-actions .nav-actions .button.button-new:active, .notice-create.has-actions .list-actions .action-primary:active, .view-uploads .no-asset-content .new-button:active, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-course:active, .view-dashboard .content .notice-incontext.has-actions .list-actions .action-create-library:active, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-course:active, .view-dashboard .content .notice-incontext.list-notices .notice-item.has-actions .list-actions .action-create-library:active, .view-import .action-choose-file:active, .view-import .wrapper-file-name .submit-button:active, .view-settings .group-settings.assignment-types .actions .new-button:active, .view-settings .group-settings.course-learning-info .actions .new-button:active, .view-settings .group-settings.instructor-types .actions .new-button:active, .view-team .content .notice-create.has-actions .list-actions .action-primary:active, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .button:active, .wrapper-xblock .xblock-message.no-container-content.xblock-message.no-container-content .action:active {
+    background: #34a9dd;
+    border-color: #34a9dd;
+}
+.view-dashboard #course-index-tabs li a,
+.view-outline .highlights-button{
+    color: #34a9dd;
+}
+.wrapper-comp-settings .file-uploader .upload-setting, .wrapper-comp-settings .list-input.settings-list .metadata-list-enum .create-setting, .wrapper-comp-settings .list-input.settings-list .metadata-dict .create-setting, .outline-content .add-item .button-new, .bit .external-help-button, .view-outline .new-subsection-item, .view-outline .new-unit-item, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .proctoring-configuration-button, .view-outline .outline-complex .add-item .button-new, .view-settings .group-settings #field-course-image .wrapper-input .action-upload-image, .view-settings .group-settings #field-banner-image .wrapper-input .action-upload-image, .view-settings .group-settings #field-video-thumbnail-image .wrapper-input .action-upload-image, .view-settings .group-settings.instructor-types .field-group .wrapper-input .action-upload-instructor-image, .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field-group .field .action-upload, .view-textbooks .content-primary .textbook .edit-textbook .textbook-fields .field-group .field .action-upload, .view-textbooks .content-primary .textbook .edit-textbook .action-add-chapter, .view-group-configurations .content-primary .wrapper-collection .action-add-item, .view-group-configurations .content-primary .action-add, .view-certificates .wrapper-collection .collection-edit .action-add-signatory, .view-certificates .wrapper-collection .action-add-item, .view-certificates .action-add, .view-certificates .certificates .signatory-edit .field .signature-upload-wrapper .action-upload-signature, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .create-setting, .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .upload-setting {
+    border-color: #34a9dd;
+    color: #34a9dd;
+}
+.outline-complex .outline-subsection.is-live {
+    border-left-color: #34a9dd;
+}
+/* studio course name font weight changes  */
+.view-dashboard .course-item .course-title {
+  font-weight: 400;
+}
+
+
+/* alkemy studio css changes  */
+a.register-btn.btn,a.sign-in-btn.btn{
+    position: relative;
+    background-color: #5e9ed6;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 10px 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 0.3;
+    border-color: #5e9ed6 !important;
+
+}
+
+.main .secondary{
+    height: 45px;
+}
+
+.global-header .nav-links .secondary .nav-item a,
+.global-header .nav-links .main a {
+    color: #fff !important;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    color: #141517;
+    display: block;
+    padding: 17px 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+
+
+}
+
+.nav-item .menu-title .user-image-frame span.username {
+    color: #fff !important;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    color: #141517;
+
+    padding: 17px 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.mobile-nav-item.dropdown-item.dropdown-nav-item {
+    padding: 5px;
+    padding-left: 5%;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+
+.global-header .nav-links .secondary .nav-item {
+        font-size: 1rem;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+a.course-target-link.enter-course:focus{
+  background-color:#5e9ed6
+}
+
+
+a.button.new-button.new-course-button:hover {
+
+    background-color: #5e9ed6;
+}
+
+.view-dashboard .list-courses {
+    border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+    .global-header .nav-links .secondary .toggle-user-dropdown {
+        padding: 10px 0px;
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .global-header .nav-links .secondary .nav-item{
+
+        margin: 0 0 0 10px;
+    }
+}
+
+.wrapper-header .branding {
+    /* padding: 0; */
+}
+
+.wrapper-header .branding a img {display: block;height: 40px;width: auto;}
+
+.wrapper.wrapper-r{
+    /* height: 99px; */
+}
+
+
+.is-signedin .nav-account {
+    /* top: 17px; */
+}
+
+.nav-dd .nav-sub {
+
+    border: none;
+
+}
+
+.wrapper-footer footer.primary a, .nav-dd .nav-sub .nav-item a {
+    color: black;
+}
+
+.wrapper-header .branding {
+ /* padding:  0; */
+}
+
+
+
+button.status-highlights-enabled-value.button:hover{
+   background-color:  #5e9ed6;
+}
+
+.wrapper-mast .mast.has-actions .nav-actions .button .action-button-text :hover{
+ background-color:#5e9ed6 ;
+
+}
+
+.nav-dd .nav-sub .nav-item a {
+    color: black;
+}
+
+a.action-publish.action-primary:hover{
+    background-color: #5e9ed6;
+}
+.wrapper-header .nav-dd .title:hover{
+    color: #065683 !important;
+}
+button.single-template.add-xblock-component-button{
+    background-color: #5e9ed6;
+    border-color: #5e9ed6;
+}
+
+.add-xblock-component .new-component h5 {
+    margin-bottom: 15px;
+    color: #34a9dd;
+}
+
+a.button.new-button.new-update-button:hover{
+   background-color: #5e9ed6;
+}
+
+
+.nav-course .nav-item .title h3.title{
+    color: #fff;
+}
+
+.note .list-actions .action-item a.action.action-primary{
+    background-color: #5e9ed6;
+    border-color: #5e9ed6;
+}
+.wrapper-mast .mast.has-actions .nav-actions .button:hover, .wrapper-sock .sock .support .list-actions .action-primary:hover, .wrapper-sock .sock .feedback .list-actions .action-primary:hover, .notification.has-actions .action-primary:hover, .notice-incontext.has-actions .list-actions .action-primary:hover, .notice-instruction.has-actions .list-actions .action-primary:hover, .view-dashboard .status-creationrights .list-actions .action-primary:hover, .view-dashboard .status-creationrights .form-actions .action-primary:hover, .view-export .export-controls .action-export:hover, .view-export .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary:hover, .view-import .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary:hover, .view-outline .course-status .status-highlights-enabled-value.button:hover, .view-settings .group-settings.basic .note-promotion-courseURL .list-actions .action-primary:hover, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-publish:hover, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-copy:hover, .view-export-git .export-git-controls .action-export-git:hover, .view-group-configurations .content-primary .wrapper-collection .collection-edit .actions .action-primary:hover, .view-video-uploads .course-video-settings-container .button:hover, .view-certificates .wrapper-collection .collection-edit .actions .action-primary:hover, .xmodule_VideoBlock .wrapper-comp-settings.basic_metadata_edit .transcripts-status .action:hover, .wrapper-mast .mast.has-actions .nav-actions .button:active, .wrapper-sock .sock .support .list-actions .action-primary:active, .wrapper-sock .sock .feedback .list-actions .action-primary:active, .notification.has-actions .action-primary:active, .notice-incontext.has-actions .list-actions .action-primary:active, .notice-instruction.has-actions .list-actions .action-primary:active, .view-dashboard .status-creationrights .list-actions .action-primary:active, .view-dashboard .status-creationrights .form-actions .action-primary:active, .view-export .export-controls .action-export:active, .view-export .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary:active, .view-import .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary:active, .view-outline .course-status .status-highlights-enabled-value.button:active, .view-settings .group-settings.basic .note-promotion-courseURL .list-actions .action-primary:active, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-publish:active, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-copy:active:hover, .view-export-git .export-git-controls .action-export-git:active, .view-group-configurations .content-primary .wrapper-collection .collection-edit .actions .action-primary:active, .view-video-uploads .course-video-settings-container .button:active, .view-certificates .wrapper-collection .collection-edit .actions .action-primary:active, .xmodule_VideoBlock .wrapper-comp-settings.basic_metadata_edit .transcripts-status .action:active {
+   background-color: #5e9ed6;
+    border-color: #5e9ed6;
+}
+.wrapper-header .nav-dd .title:hover{
+    color: #34a9dd !important;
+}
+a:hover {
+   color: #34a9dd;
+}
