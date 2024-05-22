@@ -234,3 +234,28 @@ from common.djangoapps.pipeline_mako import render_require_js_path_overrides
     next=quote_plus(login_redirect_url if login_redirect_url else request.path)
   ) if (login_redirect_url or (request and not request.path.startswith("/logout"))) else ""
 }</%def>
+<style>
+body.ltr.lang_en {
+    position: relative;
+    height: 100%;
+}
+span.register.disabled {
+    color: #fff !important;
+}
+.main-cta strong {
+    background-color: #34a9dd !important;
+    color: #fff !important;
+    background-image: none !important;
+    border-color: #34a9dd !important;
+    text-shadow: none !important;
+}
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
+    font-size: 14px !important;
+    padding: 4px 0 !important;
+    border: none !important;
+}
+header.global-header.slim {
+    height: 74px;
+    overflow: visible;
+}
+</style>
