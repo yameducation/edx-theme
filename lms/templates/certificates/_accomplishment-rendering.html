@@ -174,8 +174,13 @@ ${accomplishment_copy_course_name}
         <div class="certificate-signature">
           <div class="signature-1">
           % if sign_name_1:
-            <p>${sign_name_1}</p>
+           % if sign_img_1:
+            <img src="${sign_img_1}" class="signature-img" alt="signature1">
+           % else:
+             <div class="signature-img"></div>
+           % endif
             <div class="line"></div>
+        <p> <strong>${sign_name_1} </strong></p>
             <span>${sign_title_1}</span>
           % endif
           </div>
@@ -191,8 +196,13 @@ ${accomplishment_copy_course_name}
           </div>
           <div class="signatuare-2">
           % if sign_name_2:
-            <p>${sign_name_2}</p>
+           % if sign_img_2:
+            <img src="${sign_img_2}" class="signature-img" alt="signature1">
+           % else:
+             <div class="signature-img"></div>
+           % endif
             <div class="line"></div>
+           <p> <strong>${sign_name_2} </strong></p>
             <span>${sign_title_2}</span>
           % endif
           </div>
@@ -217,18 +227,23 @@ ${accomplishment_copy_course_name}
           %endif
         </div>
         <div class="certificate-description">
-          <p class="certify-that">This is to certify that</p>
+          <p clasAs="certify-that">This is to certify that</p>
           <h2 class="certify-username">${accomplishment_copy_name}</h2>
           <div id="line"></div>
-          <p class="completed-course">has successfully completed the course</p>
+          <p class="completed-couBrse">has successfully completed the course</p>
           <h3 class="course-name">&ldquo;${accomplishment_copy_course_name}&rdquo;</h3>
           <p class="certify-description">${certificate_description}</p>
         </div>
         <div class="certificate-signature">
           <div class="signature-1">
           % if sign_name_1:
-            <p>${sign_name_1}</p>
+           % if sign_img_1:
+            <img src="${sign_img_1}" class="signature-img" alt="signature1">
+           % else:
+             <div class="signature-img"></div>
+           % endif
             <div class="line"></div>
+	  <p> <strong>${sign_name_1} </strong></p>
             <span>${sign_title_1}</span>
           % endif
           </div>
@@ -238,8 +253,13 @@ ${accomplishment_copy_course_name}
           </div>
           <div class="signatuare-2">
           % if sign_name_2:
-            <p>${sign_name_2}</p>
+           % if sign_img_2:
+            <img src="${sign_img_2}" class="signature-img" alt="signature1">
+           % else:
+             <div class="signature-img"></div>
+           % endif
             <div class="line"></div>
+	      <p> <strong>${sign_name_2} </strong></p>
             <span>${sign_title_2}</span>
           % endif
           </div>

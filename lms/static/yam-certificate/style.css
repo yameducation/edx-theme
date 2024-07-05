@@ -176,11 +176,16 @@
         font-family: "Poppins", sans-serif;
         height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
         gap: 2px;
       }
+      .signature-img{
+        width: 130px;
+        height: 60px;
+      }
+
       .signature-1 .line,
       .signatuare-2 .line {
         height: 0.8px;
@@ -214,13 +219,13 @@
         margin: auto;
       }
       .partner-logo img {
-        width: 75px;
+        width: 74px;
         position: relative;
-        top: 8.5px;
-        left: 4.5px;
+        top: 8.3px;
+        left: 4px;
         border-radius: 50%;
         z-index: 10000;
-        height: 75px;
+        height: 74px;
       }
 @media print{
         body {
@@ -394,7 +399,7 @@
       }
       .partner-logo img {
         width: 80px !important;
-        position: relative;
+A        position: relative;
         top: 5px !important;
         left: 10px !important;
         border-radius: 50%;
@@ -484,4 +489,8 @@
 .wrapper-introduction .introduction {
     display:flex !important;
     justify-content:center !important;
+}
+.partner-logo-section {
+    margin-left: 15px;
+    margin-right: 15px;
 }
