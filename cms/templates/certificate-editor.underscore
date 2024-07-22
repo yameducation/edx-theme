@@ -74,8 +74,11 @@
 <script>
 const saveButton = document.querySelector('.action-primary');
 saveButton.addEventListener('click', function() {
-  setTimeout(function(){
-      window.location.reload(true);
-  },1000)
+  if (saveButton.textContent.trim().toLowerCase() === 'save') {
+      // If the text content is 'save', refresh the page after a delay
+      setTimeout(function() {
+        window.location.reload(true);
+      }, 1000);
+    }
 });
 </script>
