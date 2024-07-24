@@ -9,6 +9,36 @@ course_mode_class = course_mode if course_mode else ''
 <link rel="stylesheet" href="${static.url('yam-certificate/style.css')}">
 <main class="accomplishment accomplishment-main"></main>
 <style>
+h3.course-name {
+    height: 80px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media print{
+
+ .partner-logo img {
+        width: 80px !important;
+        position: relative;
+        top: -10px !important;
+        left: 10px !important;
+        border-radius: 50%;
+        z-index: 10000;
+        height: 80px !important;
+      }
+
+
+}
+body .certificate-description .certify-username {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+body div#line {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 .layout-accomplishment .wrapper-introduction {
     margin-bottom: 0;
 }

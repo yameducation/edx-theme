@@ -92,7 +92,8 @@
         letter-spacing: 4px;
         font-weight: 500 !important;
         color: #01284e;
-      }      .certificate-description {
+      }    
+       .certificate-description {
         display: flex;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
@@ -102,7 +103,7 @@
         flex-direction: column;
         height: 14rem;
         margin-top: 2rem;
-        width: 28rem;
+        width: 39rem;
       }
       .main-certificate-wrapper p {
         padding: 0;
@@ -399,7 +400,7 @@
       }
       .partner-logo img {
         width: 80px !important;
-A        position: relative;
+        position: relative;
         top: 5px !important;
         left: 10px !important;
         border-radius: 50%;
