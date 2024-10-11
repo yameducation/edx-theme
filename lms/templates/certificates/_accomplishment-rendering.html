@@ -6,60 +6,45 @@ course_mode_class = course_mode if course_mode else ''
 %>
 
 
-<link rel="stylesheet" href="${static.url('yam-certificate/style.css')}">
+<link id="default-stylesheet" rel="stylesheet" href="${static.url('yam-certificate/style.css')}">
+
+  <script>
+    function isMac() {
+      return navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+    }
+
+    function isSafari() {
+      var ua = navigator.userAgent.toLowerCase();
+      return ua.includes('safari') && !ua.includes('chrome') && !ua.includes('crios') && !ua.includes('fxios');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      if (isMac() && isSafari()) {
+        // Remove the default stylesheet
+        var defaultStylesheet = document.getElementById('default-stylesheet');
+        if (defaultStylesheet) {
+          defaultStylesheet.parentNode.removeChild(defaultStylesheet);
+        }
+
+        // Add the Safari-specific stylesheet
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = '${static.url("yam-certificate/safaristyle.css")}';
+        document.head.appendChild(link);
+      }
+    });
+  </script>
+
+
 <main class="accomplishment accomplishment-main"></main>
 <style>
-h3.course-name {
-    height: 80px !important;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-@media print{
 
- .partner-logo img {
-        width: 80px !important;
-        position: relative;
-        top: -10px !important;
-        left: 10px !important;
-        border-radius: 50%;
-        z-index: 10000;
-        height: 80px !important;
-      }
+@media print {
+  @page {
+  size: landscape;
+  }
+}
 
-
-}
-body .certificate-description .certify-username {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-body div#line {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-.layout-accomplishment .wrapper-introduction {
-    margin-bottom: 0;
-}
-/*
-.main-certificate-wrapper {
-    margin: auto;
-}
-*/
-h3.course-name svg {
-    height: 11px;
-    width: 11px;
-    position: relative;
-    top: -8px;
-    fill: #03354a;
-}
-.certificate-description .certify-username {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    width: 370px;
-}
 </style>
 
 
