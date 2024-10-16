@@ -594,7 +594,7 @@ h3.course-name svg {
 }
 
 .certificate-section .certificate-description .certify-description {
-    min-height: 80px;
+    min-height: 70px;
     height: 70px;
     -webkit-line-clamp: 4;
     max-width: 100%;

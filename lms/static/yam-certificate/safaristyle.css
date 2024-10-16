@@ -4,7 +4,8 @@
         orientation: landscape;
     }
 
-    html, body {
+    html,
+    body {
         padding: 0 !important;
         padding-bottom: 0 !important;
         overflow: hidden;
@@ -61,10 +62,11 @@
     .certificate-section {
         position: absolute;
         width: 43rem;
-        height: 26rem !important;
+        height: 28rem !important;
         padding-top: 1rem;
         margin-right: 12% !important;
         margin-left: 12% !important;
+        /*                 border: solid black; */
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -73,6 +75,7 @@
     .certificate-of-achivement {
         width: 23rem;
         margin: 0;
+        /*         border: solid red; */
         min-width: 300px;
         height: 60px !important;
         min-height: 60px !important;
@@ -82,11 +85,11 @@
 
     .certificate-of-achivement h1 {
         font-family: "Blacker", sans-serif;
-        font-size: 28px;
+        font-size: 30px;
         letter-spacing: 4px;
         height: 100%;
         color: #01284e;
-        margin-top: -30px !important;
+        margin-top: -10px !important;
         padding: 0;
     }
 
@@ -112,11 +115,13 @@
         font-style: normal;
     }
 
-    .certificate-description .certify-username {
+    body .certificate-description .certify-username {
         font-family: "Allura", cursive;
         font-weight: 500;
         font-size: 50px !important;
-        margin: 20px 0px !important;
+        margin: 10px 0px !important;
+        /*         border: solid red; */
+        max-height: 60px !important;
         color: #06364c;
     }
 
@@ -134,6 +139,8 @@
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
+        /*         border: solid red; */
+        height: 70px !important;
         font-size: 22px;
         color: #03354a;
         font-weight: 700;
@@ -153,7 +160,7 @@
 
     .certificate-signature {
         display: flex;
-        margin-top: 2.5rem !important;
+        margin-top: 1.5rem !important;
         justify-content: space-between !important;
         align-items: center;
         width: 100% !important;
@@ -191,7 +198,11 @@
     .signatuare-2 span {
         font-size: 11px;
         font-family: "Poppins", sans-serif;
-        color: gray;
+        max-height: 22px !important;
+        white-space: nowrap;
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .partner-logo-section {
@@ -208,10 +219,10 @@
         margin: auto;
     }
 
-    .partner-logo img {
+    body .partner-logo img {
         width: 80px !important;
         position: relative;
-        top: -10px !important;
+        top: -7px !important;
         left: 10px !important;
         border-radius: 50%;
         z-index: 10000;
@@ -223,7 +234,6 @@
         width: 40%;
         background-color: #f7f9f8;
     }
-
 }
 
 @font-face {
@@ -247,7 +257,6 @@
     width: 40%;
     background-color: #f7f9f8;
 }
-
 
 
 /* new certy css */
@@ -400,7 +409,6 @@
     margin-top: 0.5rem;
     font-weight: 500 !important;
     font-style: normal;
-
 }
 
 .certificate-description .certify-description span {
@@ -469,16 +477,15 @@
     margin: auto;
 }
 
-.partner-logo img {
+body .partner-logo img {
     width: 74px;
     position: relative;
-    top: 8.3px;
-    left: 4px;
+    top: 20px;
+    left: 12px;
     border-radius: 50%;
     z-index: 10000;
     height: 74px;
 }
-
 
 .certificate-description .certify-that {
     font-size: 11px !important;
@@ -501,7 +508,7 @@
 }
 
 #line {
-    height: 0.5px !important;
+    height: 4px !important;
     width: 85% !important;
     background-color: #9E9E9E !important;
     opacity: 0.3 !important;
@@ -576,39 +583,131 @@
     margin-right: 15px;
 }
 
+.certificate-signature .signature-1 p {
+    max-height: 22px !important;
+    -webkit-line-clamp: 1;
+    width: 85.5%;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
- .certificate-signature .signature-1 p {
-        max-height: 22px !important;
-        -webkit-line-clamp: 1;
-        width: 85.5%;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-      .certificate-signature .signatuare-2 p {
-        max-height: 22px !important;
-        -webkit-line-clamp: 1;
-        width: 85.5%;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
+.certificate-signature .signatuare-2 p {
+    max-height: 22px !important;
+    -webkit-line-clamp: 1;
+    width: 85.5%;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-      .certificate-section .certificate-description .certify-description {
-        max-width: 100% !important;
-        min-height: 25px;
-        line-height: 1.5 !important;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
+.certificate-section .certificate-description .certify-description {
+    max-width: 100% !important;
+    min-height: 25px;
+    line-height: 1.5 !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-      @media print {
-        .certificate-section .certificate-description .certify-description {
-          max-width: 100% !important;
-          font-size: 13px !important;
-          padding-bottom: 0 !important;
-          min-height: 22px !important;
-        }
-        .certificate-signature {
-          max-width: 88% !important;
-        }
-      }
+.certificate-section .certificate-description .certify-description {
+    max-width: 100% !important;
+    font-size: 13px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 22px !important;
+}
+
+.certificate-signature {
+    max-width: 88% !important;
+}
+
+body .certificate-description .certify-username {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+body div#line {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.layout-accomplishment .wrapper-introduction {
+    margin-bottom: 0;
+}
+
+
+h3.course-name svg {
+    height: 11px;
+    width: 11px;
+    position: relative;
+    top: -8px;
+    fill: #03354a;
+}
+
+.certificate-description .certify-username {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 370px;
+}
+
+h3.course-name svg {
+    height: 11px;
+    width: 11px;
+    position: relative;
+    top: -8px;
+    fill: #03354a;
+}
+
+.certificate-description .certify-username {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 370px;
+}
+
+.main-certificate-wrapper {
+    max-width: 55rem;
+    width: 100%;
+    height: 40rem;
+    min-height: 35rem;
+}
+
+.certificate-section {
+    height: 30rem;
+}
+
+.certificate-section .certificate-description .certify-description {
+    min-height: 70px;
+    height: 81px;
+    -webkit-line-clamp: 4;
+    max-width: 100%;
+}
+
+body .certificate-description .certify-username {
+    height: 55px !important;
+    margin: 0 !important;
+}
+
+h3.course-name {
+    height: 60px !important;
+}
+
+.partner-logo img {
+    top: 20px;
+    left: 12px;
+}
+
+.certificate-description {
+    height: 16rem;
+}
+
+.signature-1 span,
+.signatuare-2 span {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    max-height: 22px !important;
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
