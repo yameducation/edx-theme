@@ -75,7 +75,7 @@
     .certificate-of-achivement {
         width: 23rem;
         margin: 0;
-        /*         border: solid red; */
+        /*         border: solid ∑red; */
         min-width: 300px;
         height: 60px !important;
         min-height: 60px !important;
@@ -329,7 +329,7 @@
     font-family: "Blacker", sans-serif;
     font-size: 25px;
     letter-spacing: 4px;
-    height: 100%;
+    height: 60px;
     color: #01284e;
     margin: 0;
     padding: 0;
@@ -439,12 +439,12 @@
 .signatuare-2 {
     width: 12rem;
     font-family: "Poppins", sans-serif;
-    height: 100%;
+    height: 130px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    gap: 2px;
+    gap: 0px;
 }
 
 .signature-img {
@@ -454,7 +454,7 @@
 
 .signature-1 .line,
 .signatuare-2 .line {
-    height: 0.8px;
+    height: 1px;
     width: 80%;
     background-color: #01284e;
 }
@@ -464,7 +464,6 @@
     font-size: 11px;
     font-family: "Poppins", sans-serif;
     color: #03354e;
-    height:34px;	
 }
 
 .signature-1 span,
@@ -541,11 +540,13 @@ body .partner-logo img {
 .certificate-description .certify-that {
     font-size: 11px !important;
     font-weight: 500 !important;
+    height: 18px;
 }
 
 .certificate-description .completed-course {
     font-size: 11px !important;
     font-weight: 500 !important;
+    height: 18px;
 }
 
 .certificate-description .certify-description {
@@ -581,7 +582,7 @@ body .partner-logo img {
 }
 
 .certificate-description .course-name {
-    font-size: 20px !important;
+    font-size: 19px !important;
     font-weight: bolder !important;
 }
 
@@ -606,13 +607,13 @@ body .partner-logo img {
 
 .certificate-signature .signatuare-2 p {
     max-height: 39px !important;
--webkit-line-clamp: 2;
-width: 120px !important;
--webkit-box-orient: vertical;
-overflow: hidden;
--webkit-box-orient: vertical;
-display: -webkit-box;
-font-weight: 200 !important;
+    -webkit-line-clamp: 2;
+    width: 120px !important;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-weight: 200 !important;
 }
 	
 .certificate-section .certificate-description .certify-description {
@@ -706,6 +707,10 @@ body .certificate-description .certify-username {
 
 h3.course-name {
     height: 60px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .partner-logo img {
@@ -719,16 +724,15 @@ h3.course-name {
 
 .signature-1 span,
 .signatuare-2 span {
-   font-size: 11px;
+   font-size: 10px;
     font-family: "Poppins", sans-serif;
     color: gray;
-    max-height: 36px;
-    height: auto;
+    max-height: 34px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    width: 120px !important;
+    width: 124.8px !important;
 }
 @media print {
     
@@ -748,5 +752,31 @@ h3.course-name {
     body .signature-1 span, body .signatuare-2 span {
         font-size: 11px !important;
    }
+   body .signature-1 span, body .signatuare-2 span {
+        font-size: 10px !important;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    height: 36px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 120px !important;
+   }
+    .signature-1 p, .signatuare-2 p {
+	max-height: 40px !important;
+    }
+    .certificate-signature {
+        margin-top: 1rem !important;
+        height: 9rem !important;
+    }
+    .signature-1 span, .signatuare-2 span {
+        max-height: 60px !important;
+        height: 100% !important;
+    }
+    body .partner-logo img {
+     top: 20px !important;   
+    }
+    
     
 }
